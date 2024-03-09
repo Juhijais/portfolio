@@ -1,0 +1,75 @@
+<!D0CTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Software Engineer Portfolio</title>
+        <!--Tailwind CSS CDN -->
+        <link href=""https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"rel="stylesheet">
+        <style>
+            /*Additional styles can be added here */
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <header class="bg-blue-500 text-white py-4">
+            <div class="container mx-auto flex justify-between items-center px-4">
+                <h1 class="text-2x1 font-bold">Software Engineer Portfolio</h1>
+                <nav>
+                    <ul class="flex space-x-4">
+                        <li><a href="#Home"class="hover:underline">Home</a></li>
+                        <li><a href="#About"class="hover:underline">About</a></li>
+                        <li><a href="#Projects"class="hover:underline">Projects</a></li>
+                        <li><a href="#Contact"class="hover:underline">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="container mx-auto py-8 px-4">
+            <!-- About Section -->
+            <section id="about"class="mb-8">
+                <h2 class="text-2x1 font-bold mb-4">About Me</h2>
+                <p class="text-gray-700">
+                    I'm a passionate software engineer with 2 year of experience in c,c++,jva,html development. I enjoy solvingcomplex program.
+                </p>
+            </section>
+            <!-- project section -->
+            <section id="project" class="mb-8">
+                <h2 class="text-2x1 front-bold mb-4">projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-bold mb-2">project 1</h3>
+                        <p class="text-gray-700 mb-4">task 1 (make a personal portfolio website)</p>
+                        <a href="#" class="text-blue-500 hover:underline">view project</a>
+                    </div>
+                </div>
+            </section>
+            </-- contact section -->
+            <section id="contact" class="mb-8">
+                <h2 class="text-2x1 font-bold mb-4">contact me</h2>
+                <form>
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700">name</label>
+                        <input type="text" id="name" mame="name" class="w-full border-gray-300 rounded-md p-2">
+                    </div>
+                    <div class="md-4">
+                        <lable for="email" class="block text-gray-700">Email</lable>
+                        <input type="email" id="email" name="email" class="w-full border-gray-300 rounded-md p-2">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message"class="block text-gray-700">Message</label>
+                        <textarea id="message"name="message"rows="4"class="w-full border-gray-300 rounded-md p-2"></textarea>
+                    </div>
+                    <button type="submit"class="big-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Send Message</button>
+                    </form>
+                    </section>
+                </main>
+                <!-- Footer Section -->
+                <footer class="big-gray-800 text-white py-4">
+                    <div class="container mx-auto text-center">
+                        <p>&copy; 2024 Software Engineer Portfolio</p>
+                    </div>
+                </footer>
+                <!-- JavaScript -->
+                <script src="script.js"></script>
+    </body>
+</html>
